@@ -1,0 +1,85 @@
+/Users/sathira/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/bin/java -Dmaven.multiModuleProjectDirectory=/Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake -Dmaven.home=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3 -Dclassworlds.conf=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf -Dmaven.ext.class.path=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50363:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar org.codehaus.classworlds.Launcher -Didea.version=2022.1 install
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] sachiththa-bandaranayake                                           [pom]
+[INFO] core-module                                                        [jar]
+[INFO] rest-module                                                        [jar]
+[INFO]
+[INFO] -------------< fr.epita.adv-java:sachiththa-bandaranayake >-------------
+[INFO] Building sachiththa-bandaranayake 1.0-SNAPSHOT                     [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ sachiththa-bandaranayake ---
+[INFO] Installing /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/pom.xml to /Users/sathira/.m2/repository/fr/epita/adv-java/sachiththa-bandaranayake/1.0-SNAPSHOT/sachiththa-bandaranayake-1.0-SNAPSHOT.pom
+[INFO]
+[INFO] -------------------< fr.epita.adv-java:core-module >--------------------
+[INFO] Building core-module 1.0-SNAPSHOT                                  [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ core-module ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ core-module ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ core-module ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/core-module/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ core-module ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ core-module ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ core-module ---
+[INFO] Building jar: /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/core-module/target/core-module-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ core-module ---
+[INFO] Installing /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/core-module/target/core-module-1.0-SNAPSHOT.jar to /Users/sathira/.m2/repository/fr/epita/adv-java/core-module/1.0-SNAPSHOT/core-module-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/core-module/pom.xml to /Users/sathira/.m2/repository/fr/epita/adv-java/core-module/1.0-SNAPSHOT/core-module-1.0-SNAPSHOT.pom
+[INFO]
+[INFO] -------------------< fr.epita.adv-java:rest-module >--------------------
+[INFO] Building rest-module 1.0-SNAPSHOT                                  [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rest-module ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ rest-module ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rest-module ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/rest-module/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ rest-module ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rest-module ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ rest-module ---
+[INFO] Building jar: /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/rest-module/target/rest-module-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ rest-module ---
+[INFO] Installing /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/rest-module/target/rest-module-1.0-SNAPSHOT.jar to /Users/sathira/.m2/repository/fr/epita/adv-java/rest-module/1.0-SNAPSHOT/rest-module-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/sathira/Desktop/epita/exam/sachiththa-bandaranayake/rest-module/pom.xml to /Users/sathira/.m2/repository/fr/epita/adv-java/rest-module/1.0-SNAPSHOT/rest-module-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for sachiththa-bandaranayake 1.0-SNAPSHOT:
+[INFO]
+[INFO] sachiththa-bandaranayake ........................... SUCCESS [  0.267 s]
+[INFO] core-module ........................................ SUCCESS [  1.188 s]
+[INFO] rest-module ........................................ SUCCESS [  0.254 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.813 s
+[INFO] Finished at: 2023-06-27T09:26:23+02:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
